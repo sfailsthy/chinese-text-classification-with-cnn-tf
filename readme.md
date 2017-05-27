@@ -1,4 +1,4 @@
-# 基于cnn的中文文本分类算法(目前支持二分类)
+# 基于cnn的中文文本分类算法
 
 代码完全参照[clayandgithub/zh_cnn_text_classify](https://github.com/clayandgithub/zh_cnn_text_classify)。做了基础修改，如下:
 - 1.删去了原代码中许多无用的代码段
