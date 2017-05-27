@@ -27,8 +27,11 @@ run `tensorboard --logdir /{PATH_TO_CODE}/runs/{TIME_DIR}/summaries/` to view su
 ### 测试、分类
 run `python eval.py --checkpoint_dir runs/1495877448/checkpoints`
 如果需要分类自己提供的文件，请更改相关输入参数
+
 如果需要测试准确率，需要指定对应的标签文件(input_label_file)，在代码中修改即可
+
 说明：input_label_file中的每一行是0或1，需要与input_text_file中的每一行对应。
+
 在eval.py中，如果有这个对照标签文件input_label_file，则会输出预测的准确率
 
 ### 运行环境
