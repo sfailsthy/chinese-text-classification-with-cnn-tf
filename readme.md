@@ -1,6 +1,6 @@
-# 基于cnn的中文文本分类算法
+# 基于cnn的中文文本分类算法(目前支持二分类)
 
-# 代码完全参照[clayandgithub/zh_cnn_text_classify](https://github.com/clayandgithub/zh_cnn_text_classify)。做了基础修改，如下:
+代码完全参照[clayandgithub/zh_cnn_text_classify](https://github.com/clayandgithub/zh_cnn_text_classify)。做了基础修改，如下:
 - 1.删去了原代码中许多无用的代码段
 - 2.data_helpers.py文件中read_and_clean_zh_file函数处理中文编码有些问题，做了一些改变
 - 3.在train.py文件中，修改了一些训练参数的大小(原因:本来不能运行，修改后竟然可以了？？？深度学习真心是玄学(`-д-；)ゞ)
