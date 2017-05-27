@@ -32,7 +32,7 @@ run `python eval.py --checkpoint_dir /{PATH_TO_CODE/runs/{TIME_DIR}/checkpoints}
     在eval.py中，如果有这个对照标签文件input_label_file，则会输出预测的准确率
 
 ### 运行环境
-python 3.5.2 :: Anaconda 4.3.1 (64-bit)
+python 3.5.2 :: Anaconda 4.2.0 (64-bit)
 tensorflow 1.1.0
 
 ### 说明
