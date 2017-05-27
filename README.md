@@ -5,6 +5,7 @@
 - 2.data_helpers.py文件中read_and_clean_zh_file函数处理中文编码有些问题，做了一些改变
 - 3.在train.py文件中，修改了一些训练参数的大小(原因:本来不能运行，修改后竟然可以了？？？深度学习真心是玄学(`-д-；)ゞ)
 - 4.在eval.py文件最后，原作者输出csv文件作为预测的结果，然而没有处理好中文编码(又是它!!!)不是很会csv，试了好多次没成功，直接txt文件.
+- 5.word2vec_helpers.py中，load_data_and_labels函数中map(int, list(open(input_label_file, "r").readlines()))是一个map对象，这里做了修改
 
 
 ## 简介
