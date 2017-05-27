@@ -23,7 +23,7 @@ run `python train.py` to train the cnn with the <strong>spam and ham files (only
 run `tensorboard --logdir /{PATH_TO_CODE}/runs/{TIME_DIR}/summaries/` to view summaries in web view
 
 ### 测试、分类
-run `python eval.py --checkpoint_dir /{PATH_TO_CODE/runs/{TIME_DIR}/checkpoints}`
+run `python eval.py --checkpoint_dir runs/1495877448/checkpoints`
 如果需要分类自己提供的文件，请更改相关输入参数
 
     如果需要测试准确率，需要指定对应的标签文件(input_label_file):
