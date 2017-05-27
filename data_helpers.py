@@ -12,7 +12,7 @@ import pickle
 
 def load_data_and_labels(input_text_file, input_label_file, num_labels):
     x_text = read_and_clean_zh_file(input_text_file)
-    y = None if not os.path.exists(input_label_file) else [int(fuck) for fuck in list(open('data/test_label.txt', "r").readlines())]
+    y = None if not os.path.exists(input_label_file) else [int(fuck) for fuck in list(open(input_label_file, "r").readlines())]
     return (x_text, y)
 
 # 处理数据
